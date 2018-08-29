@@ -8,6 +8,10 @@ namespace PinToTaskbarHelper.Library
 {
     public static class TaskbarPinHelper
     {
+        /// <summary>
+        /// Thanks goes out to Alex Weinberger (http://alexweinberger.com/main/pinning-network-program-taskbar-programmatically-windows-10/)
+        /// for creating a partial solution to this problem.
+        /// </summary>
         public static void PinApplication(string executablePath)
         {
             var filesBefore = GetShortcuts();
