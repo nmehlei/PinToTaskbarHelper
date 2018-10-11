@@ -8,7 +8,7 @@
         Title="PinToTaskbarHelper-UI" Height="200" Width="260" SnapsToDevicePixels="True" UseLayoutRounding="True" 
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <StackPanel Background="LightSlateGray">
-        <Label Content="PinToTaskbarHelper-UI" Margin="5" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI"/>
+        <Label Content="PinToTaskbarHelper-UI" Margin="5" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Light"/>
         <Button Content="Add Application Pin" Width="140" Margin="10" Padding="5" Click="Button_Click"
                 IsEnabled="{Binding Path=IsCreatingShortcut, Converter={StaticResource InvertedBooleanConverter}}"/>
         <controls:BusyIndicator Height="40" Width="40" Margin="10"
